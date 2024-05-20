@@ -178,7 +178,7 @@ class Payment extends \Duitku\Vasampoerna\Model\Method\AbstractPayment
 		$params = array(
              'merchantCode' => $merchantcode,
              'paymentAmount' => $paymentAmount,
-             'paymentMethod' => 'M2',
+             'paymentMethod' => 'S1',
 			 'merchantOrderId' =>$orderId,
              'productDetails' => 'Order : '.$orderId,
              'additionalParam' => '',
